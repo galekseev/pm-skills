@@ -1,0 +1,33 @@
+{
+  "name": "pm-skills",
+  "description": "Structured AI workflows for better product decisions. Cursor packaging of Paweł Huryn's PM Skills: discovery, strategy and execution plugins with their chained slash commands.",
+  "owner": {
+    "name": "Paweł Huryn",
+    "email": "pawel@productcompass.pm",
+    "url": "https://www.productcompass.pm"
+  },
+  "metadata": {
+    "version": "2.1.0",
+    "description": "Cursor manifests mirror .claude-plugin/. Plugins listed here carry a .cursor-plugin/plugin.json; skills/ and commands/ are discovered automatically."
+  },
+  "plugins": [
+    {
+      "name": "pm-product-discovery",
+      "description": "Product discovery skills for PMs: ideation, experiments, assumption testing, feature prioritization, and customer interview synthesis.",
+      "source": "./pm-product-discovery",
+      "category": "product-management"
+    },
+    {
+      "name": "pm-product-strategy",
+      "description": "Product strategy skills for PMs: vision, strategy canvas, value propositions, lean canvas, business model canvas, SWOT, PESTLE, Ansoff Matrix, Porter's Five Forces, and monetization.",
+      "source": "./pm-product-strategy",
+      "category": "product-management"
+    },
+    {
+      "name": "pm-execution",
+      "description": "Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mortems, stakeholder maps, user stories, prioritization frameworks, and more.",
+      "source": "./pm-execution",
+      "category": "product-management"
+    }
+  ]
+}

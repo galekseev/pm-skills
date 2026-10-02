@@ -1,0 +1,14 @@
+{
+  "name": "pm-execution",
+  "displayName": "PM Execution",
+  "version": "2.1.0",
+  "description": "Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mortems, stakeholder maps, user stories, prioritization frameworks, and more. Commands: /write-prd, /plan-okrs, /transform-roadmap, /sprint, /pre-mortem, /red-team-prd, /meeting-notes, /stakeholder-map, /write-stories, /test-scenarios, /generate-data.",
+  "author": {
+    "name": "Paweł Huryn",
+    "email": "pawel@productcompass.pm",
+    "url": "https://www.productcompass.pm"
+  },
+  "license": "MIT",
+  "keywords": ["product-management", "execution", "prd", "okrs", "roadmap", "sprint", "pre-mortem", "user-stories", "backlog", "prioritization", "agile"],
+  "category": "product-management"
+}
